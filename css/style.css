@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.grey{
+  background-color: #F3F2F6;
+  text-align: center;
+  padding:50px;
+}
+.grey ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.grey ul li{
+  list-style: none;
+}
+.title{
+  padding-bottom:30px;
+  font-size: 18px;
+}
+.titolo{
+  text-align: center;
+  width:60%;
+  margin: auto;
+}
+.colonne{
+  display: flex;
+  width:90%;
+  margin: auto;
+  padding:50px 0px;
+}
+.col-1 {
+  flex-grow: 1;
+
+}
+.col-1 ul li{
+    border-left:2px solid grey;
+}
+.col-2{
+  flex-grow: 2;
+  display: flex;
+}
+.due{
+padding: 50px 0px ;
+}
+.col-1 ul li{
+  list-style: none;
+  text-decoration: none;
+  padding:10px;
+}
+.col-1 ul .doc{
+    border-left:2px solid blue;
+}
+.immagine-1{
+  flex-basis: 50%;
+  flex-wrap: wrap;
+}
