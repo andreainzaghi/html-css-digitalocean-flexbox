@@ -29,6 +29,7 @@
   width:90%;
   margin: auto;
   padding:50px 0px;
+  justify-content: space-between;
 }
 .col-1 {
   flex-grow: 1;
@@ -50,9 +51,9 @@ padding: 50px 0px ;
   padding:10px;
 }
 .col-1 ul .doc{
-    border-left:2px solid blue;
+  border-left:2px solid blue;
 }
 .immagine-1{
-  flex-basis: 50%;
-  flex-wrap: wrap;
+width:300px;
+margin: 0px 50px;
 }
