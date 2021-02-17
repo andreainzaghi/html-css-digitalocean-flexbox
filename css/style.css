@@ -99,3 +99,15 @@ margin: 0px 50px;
    display:block;
  }
 }
+/* transition */
+.square{
+  height:100px;
+  width:100px;
+  background-color:green;
+  transition: background 2s;
+}
+.square:hover{
+  width:200px;
+  background-color:yellow;
+  height:200px;
+}
